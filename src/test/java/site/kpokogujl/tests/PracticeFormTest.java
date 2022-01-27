@@ -2,12 +2,14 @@ package site.kpokogujl.tests;
 
 import com.codeborne.selenide.Configuration;
 import com.github.javafaker.Faker;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import site.kpokogujl.pages.AutomationPracticeFormPage;
 
 
 public class PracticeFormTest extends TestBase {
     @Test
+    @Tag("properties")
     void practiceFormTest(){
         Faker faker = new Faker();
 
